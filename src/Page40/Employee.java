@@ -27,6 +27,11 @@ public class Employee {
         return lastName;
     }
 
+    public String getName(){
+        //return firstName + " " + lastName;
+        return String.format("%s %s",firstName, lastName);
+    }
+
     public int getSalary() {
         return salary;
     }
